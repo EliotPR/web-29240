@@ -145,12 +145,24 @@ aside a {
     background-repeat: no-repeat;
 }
 
+/* -- transform -- */
+
+.widget-1:hover {
+    transform: scale(1.2);
+}
+
 .contenedor .widget-2 {
     background-image: url(img/papel1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #000;
+}
+
+/* -- transform -- */
+
+.widget-2:hover {
+    transform: scale(1.2);
 }
 
 img {
@@ -167,7 +179,6 @@ img {
 footer {
     margin-bottom: 0;
 }
-
 
 .footer a {
     text-decoration: none;
